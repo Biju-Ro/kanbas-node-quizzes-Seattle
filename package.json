@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "kanbas-quiz-project-main",
+  "version": "1.0.0",
+  "description": "quiz web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biju-Ro/kanbas-node-quizzes-main.git"
+  },
+  "keywords": [
+    "Node",
+    "Web",
+    "CS4550"
+  ],
+  "author": "Rohan Biju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biju-Ro/kanbas-node-quizzes-main/issues"
+  },
+  "homepage": "https://github.com/Biju-Ro/kanbas-node-quizzes-main#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.5.1"
+  }
+}
